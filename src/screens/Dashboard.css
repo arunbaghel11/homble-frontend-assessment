@@ -1,0 +1,43 @@
+.dashboard {
+    padding: 20px;
+}
+
+.dashboard input {
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.dashboard th {
+    cursor: pointer;
+    background: #f9f9f9;
+}
+
+.dashboard th,
+.dashboard td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.dashboard tr:hover {
+    background-color: #f1f1f1;
+}
+
+.dashboard button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.dashboard button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,16 @@
+.product-details {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    cursor: pointer;
+    color: #007BFF;
+}
+
+.section p {
+    margin: 10px 0 0;
+}
