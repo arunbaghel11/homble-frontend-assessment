@@ -26,7 +26,7 @@ This repo uses Create React App and includes essential setups:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/homble-frontend-assessment.git
+    git clone https://github.com/arunbaghel11/homble-frontend-assessment
     ```
 
 2. Navigate to the project directory:
