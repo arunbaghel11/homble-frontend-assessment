@@ -12,17 +12,31 @@
     border: 1px solid #ccc;
     padding: 10px;
     cursor: pointer;
-    transition: transform 0.2s;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .product-tile:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .skeleton {
     background-color: #eee;
     height: 100px;
     border-radius: 4px;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #f0f0f0;
+    }
+    50% {
+        background-color: #e0e0e0;
+    }
+    100% {
+        background-color: #f0f0f0;
+    }
 }
 
 .modal {
@@ -42,14 +56,34 @@
     padding: 20px;
     border-radius: 4px;
     width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
 }
 
 .modal-content input {
     display: block;
     width: 100%;
     margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+.modal-content input:hover {
+    border-color: #007BFF;
 }
 
 .modal-content button {
     margin-right: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
 }
